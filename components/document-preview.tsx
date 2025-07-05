@@ -88,13 +88,13 @@ export function DocumentPreview({
     ? previewDocument
     : artifact.status === 'streaming'
       ? {
-          title: artifact.title,
-          kind: artifact.kind,
-          content: artifact.content,
-          id: artifact.documentId,
-          createdAt: new Date(),
-          userId: 'noop',
-        }
+        title: artifact.title,
+        kind: artifact.kind,
+        content: artifact.content,
+        id: artifact.documentId,
+        createdAt: new Date(),
+        userId: 'noop',
+      }
       : null;
 
   if (!document) return <LoadingSkeleton artifactKind={artifact.kind} />;
@@ -118,7 +118,7 @@ export function DocumentPreview({
 
 const LoadingSkeleton = ({ artifactKind }: { artifactKind: ArtifactKind }) => (
   <div className="w-full">
-    <div className="p-4 border rounded-t-2xl flex flex-row gap-2 items-center justify-between dark:bg-muted h-[57px] dark:border-zinc-700 border-b-0">
+    <div className="p-4 border rounded-t-2xl flex flex-row gap-2 items-center justify-between dark:bg-muted h-[57px] dark:border-gray-700 border-b-0">
       <div className="flex flex-row items-center gap-3">
         <div className="text-muted-foreground">
           <div className="animate-pulse rounded-md size-4 bg-muted-foreground/20" />
@@ -130,11 +130,11 @@ const LoadingSkeleton = ({ artifactKind }: { artifactKind: ArtifactKind }) => (
       </div>
     </div>
     {artifactKind === 'image' ? (
-      <div className="overflow-y-scroll border rounded-b-2xl bg-muted border-t-0 dark:border-zinc-700">
+      <div className="overflow-y-scroll border rounded-b-2xl bg-muted border-t-0 dark:border-gray-700">
         <div className="animate-pulse h-[257px] bg-muted-foreground/20 w-full" />
       </div>
     ) : (
-      <div className="overflow-y-scroll border rounded-b-2xl p-8 pt-4 bg-muted border-t-0 dark:border-zinc-700">
+      <div className="overflow-y-scroll border rounded-b-2xl p-8 pt-4 bg-muted border-t-0 dark:border-gray-700">
         <InlineDocumentSkeleton />
       </div>
     )}
@@ -160,18 +160,18 @@ const PureHitboxLayer = ({
         artifact.status === 'streaming'
           ? { ...artifact, isVisible: true }
           : {
-              ...artifact,
-              title: result.title,
-              documentId: result.id,
-              kind: result.kind,
-              isVisible: true,
-              boundingBox: {
-                left: boundingBox.x,
-                top: boundingBox.y,
-                width: boundingBox.width,
-                height: boundingBox.height,
-              },
+            ...artifact,
+            title: result.title,
+            documentId: result.id,
+            kind: result.kind,
+            isVisible: true,
+            boundingBox: {
+              left: boundingBox.x,
+              top: boundingBox.y,
+              width: boundingBox.width,
+              height: boundingBox.height,
             },
+          },
       );
     },
     [setArtifact, result],
@@ -186,7 +186,7 @@ const PureHitboxLayer = ({
       aria-hidden="true"
     >
       <div className="w-full p-4 flex justify-end items-center">
-        <div className="absolute right-[9px] top-[13px] p-2 hover:dark:bg-zinc-700 rounded-md hover:bg-zinc-100">
+        <div className="absolute right-[9px] top-[13px] p-2 hover:dark:bg-gray-700 rounded-md hover:bg-gray-100">
           <FullscreenIcon />
         </div>
       </div>
@@ -208,7 +208,7 @@ const PureDocumentHeader = ({
   kind: ArtifactKind;
   isStreaming: boolean;
 }) => (
-  <div className="p-4 border rounded-t-2xl flex flex-row gap-2 items-start sm:items-center justify-between dark:bg-muted border-b-0 dark:border-zinc-700">
+  <div className="p-4 border rounded-t-2xl flex flex-row gap-2 items-start sm:items-center justify-between dark:bg-muted border-b-0 dark:border-gray-700">
     <div className="flex flex-row items-start sm:items-center gap-3">
       <div className="text-muted-foreground">
         {isStreaming ? (
@@ -238,7 +238,7 @@ const DocumentContent = ({ document }: { document: Document }) => {
   const { artifact } = useArtifact();
 
   const containerClassName = cn(
-    'h-[257px] overflow-y-scroll border rounded-b-2xl dark:bg-muted border-t-0 dark:border-zinc-700',
+    'h-[257px] overflow-y-scroll border rounded-b-2xl dark:bg-muted border-t-0 dark:border-gray-700',
     {
       'p-4 sm:px-14 sm:py-16': document.kind === 'text',
       'p-0': document.kind === 'code',
@@ -250,18 +250,18 @@ const DocumentContent = ({ document }: { document: Document }) => {
     isCurrentVersion: true,
     currentVersionIndex: 0,
     status: artifact.status,
-    saveContent: () => {},
+    saveContent: () => { },
     suggestions: [],
   };
 
   return (
     <div className={containerClassName}>
       {document.kind === 'text' ? (
-        <Editor {...commonProps} onSaveContent={() => {}} />
+        <Editor {...commonProps} onSaveContent={() => { }} />
       ) : document.kind === 'code' ? (
         <div className="flex flex-1 relative w-full">
           <div className="absolute inset-0">
-            <CodeEditor {...commonProps} onSaveContent={() => {}} />
+            <CodeEditor {...commonProps} onSaveContent={() => { }} />
           </div>
         </div>
       ) : document.kind === 'sheet' ? (
