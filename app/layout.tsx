@@ -1,15 +1,17 @@
 import { Toaster } from 'sonner';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
-import { ThemeProvider } from '@/components/theme-provider';
 
 import './globals.css';
 import { SessionProvider } from 'next-auth/react';
+import { ConditionalThemeWrapper } from '@/components/conditional-theme-wrapper';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://chat.vercel.ai'),
-  title: 'Next.js Chatbot Template',
+  title: 'Chatbot Template',
   description: 'Next.js chatbot template using the AI SDK.',
+  icons: {
+    icon: "/favicon.svg"
+  }
 };
 
 export const viewport = {
@@ -56,30 +58,26 @@ export default async function RootLayout({
   return (
     <html
       lang="en"
-      // `next-themes` injects an extra classname to the body element to avoid
-      // visual flicker before hydration. Hence the `suppressHydrationWarning`
-      // prop is necessary to avoid the React hydration mismatch warning.
-      // https://github.com/pacocoursey/next-themes?tab=readme-ov-file#with-app
       suppressHydrationWarning
       className={`${geist.variable} ${geistMono.variable}`}
     >
       <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: THEME_COLOR_SCRIPT,
-          }}
-        />
+        <script dangerouslySetInnerHTML={{ __html: THEME_COLOR_SCRIPT }} />
       </head>
       <body className="antialiased">
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <Toaster position="top-center" />
-          <SessionProvider>{children}</SessionProvider>
-        </ThemeProvider>
+        <SessionProvider>
+          <ConditionalThemeWrapper>
+            {children}
+          </ConditionalThemeWrapper>
+        </SessionProvider>
+        <Toaster position="top-center" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossOrigin="anonymous"
+          referrerPolicy="no-referrer"
+        />
       </body>
     </html>
   );
