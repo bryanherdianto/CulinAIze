@@ -42,7 +42,7 @@ export default function AboutUs() {
               About Us
             </Typography>
             <Typography variant="lead" color="white" className="mt-6 mb-10 w-full md:max-w-full lg:max-w-2xl">
-              We're passionate about empowering developers with the skills they need to build amazing React applications
+              We&apos;re passionate about empowering developers with the skills they need to build amazing React applications
               and advance their careers.
             </Typography>
           </div>
@@ -96,7 +96,7 @@ export default function AboutUs() {
                 lesson.
               </Typography>
               <Typography className="font-normal !text-gray-500">
-                Today, we continue to innovate and expand our offerings, always keeping our students' success at the
+                Today, we continue to innovate and expand our offerings, always keeping our students&apos; success at the
                 heart of everything we do.
               </Typography>
             </div>
@@ -148,7 +148,7 @@ export default function AboutUs() {
                   Community
                 </Typography>
                 <Typography className="font-normal !text-gray-500">
-                  We believe in the power of learning together and supporting each other's growth.
+                  We believe in the power of learning together and supporting each other&apos;s growth.
                 </Typography>
               </CardBody>
             </Card>

@@ -42,8 +42,8 @@ export default function Terms() {
                   this agreement. If you do not agree to abide by the above, please do not use this service.
                 </Typography>
                 <Typography className="font-normal !text-gray-500">
-                  These Terms of Service ("Terms") govern your use of our website located at chatbot.com (the "Service")
-                  operated by Chatbot ("us", "we", or "our").
+                  These Terms of Service (&quot;Terms&quot;) govern your use of our website located at chatbot.com (the &quot;Service&quot;)
+                  operated by Chatbot (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;).
                 </Typography>
               </CardBody>
             </Card>
@@ -54,7 +54,7 @@ export default function Terms() {
                   2. Use License
                 </Typography>
                 <Typography className="font-normal !text-gray-500 mb-4">
-                  Permission is granted to temporarily download one copy of the materials on Chatbot's website for
+                  Permission is granted to temporarily download one copy of the materials on Chatbot&apos;s website for
                   personal, non-commercial transitory viewing only.
                 </Typography>
                 <Typography className="font-normal !text-gray-500 mb-2">
@@ -108,7 +108,7 @@ export default function Terms() {
                   5. Disclaimer
                 </Typography>
                 <Typography className="font-normal !text-gray-500 mb-4">
-                  The materials on Chatbot's website are provided on an 'as is' basis. Chatbot makes no warranties,
+                  The materials on Chatbot&apos;s website are provided on an &apos;as is&apos; basis. Chatbot makes no warranties,
                   expressed or implied, and hereby disclaims and negates all other warranties including without
                   limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or
                   non-infringement of intellectual property or other violation of rights.

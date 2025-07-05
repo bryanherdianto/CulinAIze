@@ -70,7 +70,7 @@ export default function Team() {
             Our Expert Team
           </Typography>
           <Typography variant="lead" className="mb-16 font-normal !text-gray-500">
-            We're a diverse group of industry professionals, educators, and React enthusiasts committed to your success.
+            We&apos;re a diverse group of industry professionals, educators, and React enthusiasts committed to your success.
             Each team member brings unique expertise and real-world experience to help you master React development.
           </Typography>
         </div>

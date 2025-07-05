@@ -12,14 +12,14 @@ export default function ContactUs() {
 
       {/* Hero Section */}
       <div className="relative min-h-[50vh] w-full bg-[url('/image/contact.jpg')] bg-cover bg-no-repeat">
-        <div className="absolute inset-0 h-full w-full bg-gray-900/20" />
+        <div className="absolute inset-0 size-full bg-gray-900/20" />
         <div className="grid min-h-[50vh] px-8">
           <div className="container relative z-10 my-auto mx-auto grid place-items-center text-center">
             <Typography variant="h1" color="white" className="md:max-w-full lg:max-w-3xl">
               Contact Us
             </Typography>
             <Typography variant="lead" color="white" className="mt-6 mb-10 w-full md:max-w-full lg:max-w-2xl">
-              Get in touch with our team. We're here to help you with any questions about our React course and learning
+              Get in touch with our team. We&apos;re here to help you with any questions about our React course and learning
               platform.
             </Typography>
           </div>
@@ -36,7 +36,7 @@ export default function ContactUs() {
                 Send us a Message
               </Typography>
               <Typography variant="lead" className="mb-8 font-normal !text-gray-500">
-                Fill out the form below and we'll get back to you as soon as possible.
+                Fill out the form below and we&apos;ll get back to you as soon as possible.
               </Typography>
 
               <Card>
@@ -67,7 +67,7 @@ export default function ContactUs() {
               <div className="space-y-8">
                 <div className="flex items-start gap-4">
                   <div className="rounded-lg bg-gray-900 p-4">
-                    <PhoneIcon className="h-6 w-6 text-white" />
+                    <PhoneIcon className="size-6 text-white" />
                   </div>
                   <div>
                     <Typography variant="h6" color="blue-gray" className="mb-1">
@@ -79,7 +79,7 @@ export default function ContactUs() {
 
                 <div className="flex items-start gap-4">
                   <div className="rounded-lg bg-gray-900 p-4">
-                    <EnvelopeIcon className="h-6 w-6 text-white" />
+                    <EnvelopeIcon className="size-6 text-white" />
                   </div>
                   <div>
                     <Typography variant="h6" color="blue-gray" className="mb-1">
@@ -91,7 +91,7 @@ export default function ContactUs() {
 
                 <div className="flex items-start gap-4">
                   <div className="rounded-lg bg-gray-900 p-4">
-                    <MapPinIcon className="h-6 w-6 text-white" />
+                    <MapPinIcon className="size-6 text-white" />
                   </div>
                   <div>
                     <Typography variant="h6" color="blue-gray" className="mb-1">
