@@ -3,7 +3,6 @@ import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 
 import './globals.css';
-import { SessionProvider } from 'next-auth/react';
 import { ConditionalThemeWrapper } from '@/components/conditional-theme-wrapper';
 
 export const metadata: Metadata = {
@@ -65,11 +64,9 @@ export default async function RootLayout({
         <script dangerouslySetInnerHTML={{ __html: THEME_COLOR_SCRIPT }} />
       </head>
       <body className="antialiased">
-        <SessionProvider>
           <ConditionalThemeWrapper>
             {children}
           </ConditionalThemeWrapper>
-        </SessionProvider>
         <Toaster position="top-center" />
         <link
           rel="stylesheet"
