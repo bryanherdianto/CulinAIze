@@ -3,7 +3,6 @@
 import React from "react"
 import { Navbar as MTNavbar, Collapse, IconButton, Typography, Button } from "@material-tailwind/react"
 import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid"
-import { after } from "node:test"
 
 interface NavItemProps {
   children: React.ReactNode

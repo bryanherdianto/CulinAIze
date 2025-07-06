@@ -25,7 +25,7 @@ export function CarouselFeatures() {
           nextArrow={() => <></>}
           prevArrow={() => <></>}
           navigation={({ setActiveIndex, activeIndex, length }) => (
-            <div className="absolute left-16 bottom-0 z-50 flex h-5 w-20 -translate-x-2/4 gap-2 md:left-2/4">
+            <div className="absolute left-16 bottom-0 z-60 flex h-5 w-20 -translate-x-2/4 gap-2 md:left-2/4">
               {new Array(length).fill("").map((_, i) => (
                 <span
                   key={i}
@@ -41,7 +41,7 @@ export function CarouselFeatures() {
           {new Array(2).fill("").map((_, i) => (
             <div
               key={i}
-              className="!relative flex grid-cols-1 flex-col-reverse gap-6 px-10 py-14 md:grid md:grid-cols-5  md:gap-14 md:py-20"
+              className="!relative flex grid-cols-1 flex-col-reverse gap-6 px-10 py-14 md:grid md:grid-cols-5 md:gap-14 md:py-20"
             >
               <div className="col-span-3 flex flex-col items-start justify-center">
                 <Typography
