@@ -42,8 +42,8 @@ export default function Terms() {
                   this agreement. If you do not agree to abide by the above, please do not use this service.
                 </Typography>
                 <Typography className="font-normal !text-gray-500">
-                  These Terms of Service (&quot;Terms&quot;) govern your use of our website located at chatbot.com (the &quot;Service&quot;)
-                  operated by Chatbot (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;).
+                  These Terms of Service (&quot;Terms&quot;) govern your use of our website located at culinaize.com (the &quot;Service&quot;)
+                  operated by CulinAIze (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;).
                 </Typography>
               </CardBody>
             </Card>
@@ -54,7 +54,7 @@ export default function Terms() {
                   2. Use License
                 </Typography>
                 <Typography className="font-normal !text-gray-500 mb-4">
-                  Permission is granted to temporarily download one copy of the materials on Chatbot&apos;s website for
+                  Permission is granted to temporarily download one copy of the materials on CulinAIze&apos;s website for
                   personal, non-commercial transitory viewing only.
                 </Typography>
                 <Typography className="font-normal !text-gray-500 mb-2">
@@ -80,7 +80,7 @@ export default function Terms() {
                 </Typography>
                 <Typography className="font-normal !text-gray-500">
                   Course content may not be shared, distributed, or used for commercial purposes without explicit
-                  written permission from Chatbot.
+                  written permission from CulinAIze.
                 </Typography>
               </CardBody>
             </Card>
@@ -108,13 +108,13 @@ export default function Terms() {
                   5. Disclaimer
                 </Typography>
                 <Typography className="font-normal !text-gray-500 mb-4">
-                  The materials on Chatbot&apos;s website are provided on an &apos;as is&apos; basis. Chatbot makes no warranties,
+                  The materials on CulinAIze&apos;s website are provided on an &apos;as is&apos; basis. CulinAIze makes no warranties,
                   expressed or implied, and hereby disclaims and negates all other warranties including without
                   limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or
                   non-infringement of intellectual property or other violation of rights.
                 </Typography>
                 <Typography className="font-normal !text-gray-500">
-                  Further, Chatbot does not warrant or make any representations concerning the accuracy, likely results,
+                  Further, CulinAIze does not warrant or make any representations concerning the accuracy, likely results,
                   or reliability of the use of the materials on its website or otherwise relating to such materials or
                   on any sites linked to this site.
                 </Typography>
@@ -127,7 +127,7 @@ export default function Terms() {
                   6. Contact Information
                 </Typography>
                 <Typography className="font-normal !text-gray-500">
-                  If you have any questions about these Terms and Conditions, please contact us at support@chatbot.com
+                  If you have any questions about these Terms and Conditions, please contact us at support@culinaize.com
                   or through our contact page.
                 </Typography>
               </CardBody>

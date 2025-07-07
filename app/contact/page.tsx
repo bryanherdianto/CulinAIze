@@ -73,7 +73,7 @@ export default function ContactUs() {
                     <Typography variant="h6" color="blue-gray" className="mb-1">
                       Phone
                     </Typography>
-                    <Typography className="font-normal !text-gray-500">+1 (555) 123-4567</Typography>
+                    <Typography className="font-normal !text-gray-500">+62 (877) 123-4567</Typography>
                   </div>
                 </div>
 
@@ -85,7 +85,7 @@ export default function ContactUs() {
                     <Typography variant="h6" color="blue-gray" className="mb-1">
                       Email
                     </Typography>
-                    <Typography className="font-normal !text-gray-500">support@chatbot.com</Typography>
+                    <Typography className="font-normal !text-gray-500">support@culinaize.com</Typography>
                   </div>
                 </div>
 
@@ -102,7 +102,7 @@ export default function ContactUs() {
                       <br />
                       Education City, EC 12345
                       <br />
-                      United States
+                      Indonesia
                     </Typography>
                   </div>
                 </div>

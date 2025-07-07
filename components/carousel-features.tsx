@@ -29,9 +29,8 @@ export function CarouselFeatures() {
               {new Array(length).fill("").map((_, i) => (
                 <span
                   key={i}
-                  className={`block h-1 w-10 cursor-pointer transition-all content-[''] ${
-                    activeIndex === i ? "bg-white" : "bg-white/50"
-                  }`}
+                  className={`block h-1 w-10 cursor-pointer transition-all content-[''] ${activeIndex === i ? "bg-white" : "bg-white/50"
+                    }`}
                   onClick={() => setActiveIndex(i)}
                 />
               ))}

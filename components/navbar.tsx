@@ -60,7 +60,7 @@ export function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         <a href="/" className="flex items-center gap-2">
           <Typography variant="h5" color={isScrolling ? "blue-gray" : "white"}>
-            Chatbot
+            CulinAIze
           </Typography>
         </a>
         <ul className={`ml-10 hidden items-center gap-6 lg:flex w-fit ${isScrolling ? "text-gray-900" : "text-white"}`}>

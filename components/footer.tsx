@@ -65,7 +65,7 @@ export function Footer() {
                 <Typography className="font-medium mt-3 !text-sm !text-gray-500 text-left">
                   I agree to the{" "}
                   <a href="/terms" className="font-bold underline hover:text-gray-900 transition-colors">
-                  Terms and Conditions{" "}
+                    Terms and Conditions{" "}
                   </a>
                 </Typography>
               </div>
@@ -76,7 +76,7 @@ export function Footer() {
           </div>
         </div>
         <Typography color="blue-gray" className="md:text-center mt-16 font-normal !text-gray-700">
-          &copy; {CURRENT_YEAR} Chatbot. All Rights Reserved.
+          &copy; {CURRENT_YEAR} CulinAIze. All Rights Reserved.
         </Typography>
       </div>
     </footer>

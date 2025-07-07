@@ -12,16 +12,16 @@ export default function Page() {
             Create an account with your email and password
           </p>
         </div>
-          <p className="text-center text-sm text-gray-600 mt-4 dark:text-gray-400">
-            {'Already have an account? '}
-            <Link
-              href="/login"
-              className="font-semibold text-gray-800 hover:underline dark:text-gray-200"
-            >
-              Sign in
-            </Link>
-            {' instead.'}
-          </p>
+        <p className="text-center text-sm text-gray-600 mt-4 dark:text-gray-400">
+          {'Already have an account? '}
+          <Link
+            href="/login"
+            className="font-semibold text-gray-800 hover:underline dark:text-gray-200"
+          >
+            Sign in
+          </Link>
+          {' instead.'}
+        </p>
       </div>
     </div>
   );

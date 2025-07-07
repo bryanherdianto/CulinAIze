@@ -1,9 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import { useState } from 'react';
-
 
 export default function Page() {
   return (
@@ -15,16 +12,16 @@ export default function Page() {
             Use your email and password to sign in
           </p>
         </div>
-          <p className="text-center text-sm text-gray-600 mt-4 dark:text-gray-400">
-            {"Don't have an account? "}
-            <Link
-              href="/register"
-              className="font-semibold text-gray-800 hover:underline dark:text-gray-200"
-            >
-              Sign up
-            </Link>
-            {' for free.'}
-          </p>
+        <p className="text-center text-sm text-gray-600 mt-4 dark:text-gray-400">
+          {"Don't have an account? "}
+          <Link
+            href="/register"
+            className="font-semibold text-gray-800 hover:underline dark:text-gray-200"
+          >
+            Sign up
+          </Link>
+          {' for free.'}
+        </p>
       </div>
     </div>
   );

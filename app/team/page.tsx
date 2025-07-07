@@ -6,41 +6,17 @@ import { ThemeProvider, Typography, Card, CardBody } from "@material-tailwind/re
 
 const TEAM_MEMBERS = [
   {
-    name: "Sarah Johnson",
-    role: "Lead Instructor & Co-Founder",
+    name: "Bryan Herdianto",
+    role: "Frontend Developer",
     bio: "10+ years of React development experience at top tech companies.",
     image: "/placeholder.svg?height=300&width=300",
   },
   {
-    name: "Michael Chen",
-    role: "Senior React Developer",
+    name: "Wesley Frederick Oh",
+    role: "Backend Developer",
     bio: "Former Facebook engineer specializing in React performance optimization.",
     image: "/placeholder.svg?height=300&width=300",
-  },
-  {
-    name: "Emily Rodriguez",
-    role: "Course Designer",
-    bio: "Educational technology expert with a passion for effective learning.",
-    image: "/placeholder.svg?height=300&width=300",
-  },
-  {
-    name: "David Kim",
-    role: "Community Manager",
-    bio: "Dedicated to building and supporting our learning community.",
-    image: "/placeholder.svg?height=300&width=300",
-  },
-  {
-    name: "Lisa Thompson",
-    role: "Content Creator",
-    bio: "Technical writer and developer creating comprehensive course materials.",
-    image: "/placeholder.svg?height=300&width=300",
-  },
-  {
-    name: "Alex Martinez",
-    role: "Student Success Coordinator",
-    bio: "Ensuring every student achieves their learning goals and career objectives.",
-    image: "/placeholder.svg?height=300&width=300",
-  },
+  }
 ]
 
 export default function Team() {

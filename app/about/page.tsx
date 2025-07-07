@@ -87,7 +87,7 @@ export default function AboutUs() {
                 Our Story
               </Typography>
               <Typography variant="lead" className="mb-6 font-normal !text-gray-500">
-                Founded in 2019, Chatbot started with a simple vision: make React learning accessible to everyone,
+                Founded in 2024, CulinAIze started with a simple vision: make React learning accessible to everyone,
                 regardless of their background or experience level.
               </Typography>
               <Typography className="mb-4 font-normal !text-gray-500">

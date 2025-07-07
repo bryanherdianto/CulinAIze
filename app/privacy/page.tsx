@@ -147,7 +147,7 @@ export default function Privacy() {
                   Contact Us
                 </Typography>
                 <Typography className="font-normal !text-gray-500">
-                  If you have any questions about this Privacy Policy, please contact us at privacy@chatbot.com or
+                  If you have any questions about this Privacy Policy, please contact us at privacy@culinaize.com or
                   through our contact page.
                 </Typography>
               </CardBody>

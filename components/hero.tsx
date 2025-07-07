@@ -13,7 +13,7 @@ function Hero() {
             color="white"
             className="md:max-w-full lg:max-w-3xl"
           >
-            Master the Power of AI
+            Master Cooking with AI
           </Typography>
           <Typography
             variant="lead"
@@ -21,8 +21,8 @@ function Hero() {
             className="mt-6 mb-10 w-full md:max-w-full lg:max-w-3xl"
           >
             Our chatbot is designed to help you learn and master the
-            fundamentals of AI, providing you with the knowledge and skills to
-            excel in this rapidly evolving field.
+            arts of cooking. Whether you're a beginner or an experienced chef, it can provide
+            personalized guidance to elevate your culinary skills.
           </Typography>
           <div>
             <a href="/chat">
