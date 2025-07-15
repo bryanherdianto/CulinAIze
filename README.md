@@ -1,27 +1,18 @@
 <a id="readme-top"></a>
-
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
 
   <h1 align="center">🍳  CulinAIze  🧠</h1>
 
-
   <p align="center">
     Your everyday cooking assistant, ready to give you recipes to cook based on your needs.
     <br />
-    <a href="https://github.com/bryanherdianto/culinaize?tab=readme-ov-file"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/bryanherdianto/culinaize">View Demo</a>
+    <a href="https://culinaize.vercel.app">View Demo</a>
     &middot;
     <a href="https://github.com/bryanherdianto/culinaize/issues/newlabels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
     <a href="https://github.com/bryanherdianto/culinaize/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -36,17 +27,22 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#running-with-docker-local">Running with Docker (local)</a></li>
+        <li><a href="#running-with-vercel-deployed">Running with Vercel (deployed)</a></li>
+        <li><a href="#additional-notes">Additional Notes</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#documentation">Documentation</a></li>
+    <li><a href="#future-features">Future Features</a></li>
+    <li>
+      <a href="#closing-notes">Closing Notes</a>
+      <ul>
+        <li><a href="#top-contributors">Top Contributors</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </li>
   </ol>
 </details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -55,25 +51,19 @@ CulinAIze is a cooking assistant that helps you find recipes based on your dieta
 
 CulinAIze uses RAG (Retrieval-Augmented Generation) to provide you with the best recipes based on your needs, show the cooking steps, and provide cooking tips if needed. It uses a combination of tools to generate recipes, including Gemini model, Spoonacular API, n8n, and more below.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 ### Built With
 
 CulinAIze is built with a combination of technologies to provide a seamless experience. Here are some of the key technologies used:
 
-* [![Next][Next.js]][Next.js-url]
-* [![Supabase][Supabase]][Supabase-url]
-* [![n8n][n8n]][n8n-url]
-* [![Spoonacular][Spoonacular]][Spoonacular-url]
-* [![GeminiAI][GeminiAI]][GeminiAI-url]
-* [![React.js][React.js]][React-url]
-* [![TypeScript][TypeScript]][TypeScript-url]
+[![Next][Next.js]][Next.js-url]
+[![Supabase][Supabase]][Supabase-url]
+[![n8n][n8n]][n8n-url]
+[![Spoonacular][Spoonacular]][Spoonacular-url]
+[![GeminiAI][GeminiAI]][GeminiAI-url]
+[![React.js][React.js]][React-url]
+[![TypeScript][TypeScript]][TypeScript-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -109,16 +99,14 @@ To run locally, you can use Docker or run the deployed version with vercel. Belo
 
 1. Visit the deployed version at [https://culinaize.vercel.app](https://culinaize.vercel.app)
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 ### Additional Notes
 
 The backend is powered by n8n, which is a workflow automation tool that is hosted on cloud. The n8n instance is used to handle the communication between the frontend and the Spoonacular API, as well as the Gemini AI model. Therefore, the backend does not have to be run locally, as it is already hosted on the cloud.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- USAGE EXAMPLES -->
-## Screenshots
+## Documentation
 
 ![picture 3](https://i.imgur.com/2NT1G1M.jpeg)  
 
@@ -130,7 +118,6 @@ The backend is powered by n8n, which is a workflow automation tool that is hoste
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
@@ -149,7 +136,7 @@ The backend is powered by n8n, which is a workflow automation tool that is hoste
 
 We sincerely hope you find CulinAIze useful in your cooking adventures! If you have any suggestions, improvements, or just want to share your experience, feel free to reach out the contributors of this project. Your feedback is invaluable to us!
 
-### Top contributors:
+### Top Contributors
 
 <a href="https://github.com/bryanherdianto" target="_blank">
   <img src="https://avatars.githubusercontent.com/u/73747143?s=48&v=4" width="50" height="50" alt="Bryan Herdianto" style="border-radius: 50%;">
@@ -158,18 +145,11 @@ We sincerely hope you find CulinAIze useful in your cooking adventures! If you h
   <img src="https://avatars.githubusercontent.com/u/144752573?v=4" width="50" height="50" alt="Wesley Frederick Oh" style="border-radius: 50%;">
 </a>
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
-## Contact
+### Contact
 
-Bryan Herdianto - [@bryan.herdianto17](https://www.instagram.com/bryan.herdianto17/) -
+Bryan Herdianto - [@bryan.herdianto17](https://www.instagram.com/bryan.herdianto17/) - bryan.herdianto17@gmail.com  
 Wesley Frederick Oh - [@wesleyfo4004](https://instagram.com/wesleyfo4004) - pempekplg3@gmail.com
-
-Project Link: [https://github.com/bryanherdianto/culinaize](https://github.com/bryanherdianto/culinaize)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
