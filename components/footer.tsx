@@ -4,8 +4,8 @@ const LINKS = [
   {
     title: "Pages",
     items: [
+      { name: "Home", href: "/" },
       { name: "Login", href: "/login" },
-      { name: "Register", href: "/register" },
       { name: "Chat", href: "/chat" },
       { name: "Contact Us", href: "/contact" },
     ],

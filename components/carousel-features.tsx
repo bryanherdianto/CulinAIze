@@ -10,13 +10,13 @@ export function CarouselFeatures() {
     <section className="px-8 pt-40 pb-20">
       <div className="flex mb-16 flex-col items-center">
         <Typography variant="h2" className="text-center mb-2" color="blue-gray">
-          What Students Say
+          What Our Users Say
         </Typography>
         <Typography
           variant="lead"
           className="mb-3 w-full text-center font-normal !text-gray-500 lg:w-10/12"
         >
-          Discover what our students have to say about our course!
+          Discover how CulinAIze has transformed the cooking experience for food enthusiasts!
         </Typography>
       </div>
       <div className="container mx-auto !rounded-lg bg-[url('/image/Background.png')] bg-center py-10 lg:px-16">
@@ -48,10 +48,10 @@ export function CarouselFeatures() {
                   color="white"
                   className="mb-5 text-xl font-normal "
                 >
-                  Easy Shopping, Quick Delivery <br />
-                  No need to stress about shopping for books. Order online and
-                  have your textbooks and supplies delivered straight to your
-                  doorstep for free.
+                  Smart Recipe Creation, Perfect Results <br />
+                  CulinAIze helped me create amazing dishes from ingredients I 
+                  already had at home. The AI suggestions are spot-on and the 
+                  cooking guidance is incredibly helpful.
                 </Typography>
                 <Typography
                   variant="small"
@@ -60,7 +60,7 @@ export function CarouselFeatures() {
                 >
                   Louis Miriam,{" "}
                   <span className="font-normal opacity-60">
-                    Web Developer @ AMAZON INC.
+                    Home Chef @ AMAZON INC.
                   </span>
                 </Typography>
               </div>

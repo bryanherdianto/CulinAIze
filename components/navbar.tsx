@@ -111,7 +111,7 @@ export function Navbar() {
               </MenuHandler>
               <MenuList>
                 <MenuItem onClick={handleLogout} className="flex items-center gap-2 text-red-500">
-                  <PowerIcon className="h-4 w-4" />
+                  <PowerIcon className="size-4" />
                   Sign Out
                 </MenuItem>
               </MenuList>
@@ -130,7 +130,7 @@ export function Navbar() {
           onClick={handleOpen}
           className="ml-auto inline-block lg:hidden"
         >
-          {open ? <XMarkIcon strokeWidth={2} className="h-6 w-6" /> : <Bars3Icon strokeWidth={2} className="h-6 w-6" />}
+          {open ? <XMarkIcon strokeWidth={2} className="size-6" /> : <Bars3Icon strokeWidth={2} className="size-6" />}
         </IconButton>
       </div>
       <Collapse open={open}>

@@ -165,7 +165,7 @@ function ChatPage() {
   };
 
   if (session === undefined) {
-    return <div className="min-h-screen bg-black flex items-center justify-center text-white"><Loader2 className="h-8 w-8 animate-spin" /></div>;
+    return <div className="min-h-screen bg-black flex items-center justify-center text-white"><Loader2 className="size-8 animate-spin" /></div>;
   }
 
   return (
@@ -173,7 +173,7 @@ function ChatPage() {
       <div className='absolute top-2 left-2'>
         <a href="/">
           <span className="text-lg font-semibold px-2 hover:bg-gray-800 rounded-md cursor-pointer">
-            ← Go Back
+            CulinAIze
           </span>
         </a>
       </div>
@@ -185,7 +185,7 @@ function ChatPage() {
                 key={msg.id}
                 className={`flex gap-3 ${msg.sender === 'user' ? 'justify-end' : 'justify-start'}`}
               >
-                {msg.sender === 'ai' && <Bot className="h-6 w-6 flex-shrink-0" />}
+                {msg.sender === 'ai' && <Bot className="size-6 flex-shrink-0" />}
                 <div
                   className={`max-w-md px-4 py-2 rounded-lg ${msg.sender === 'user'
                     ? 'bg-white text-black'
@@ -197,14 +197,14 @@ function ChatPage() {
                   )}
                   {msg.text && <p className="text-sm whitespace-pre-wrap">{msg.text}</p>}
                 </div>
-                {msg.sender === 'user' && <User className="h-6 w-6 flex-shrink-0" />}
+                {msg.sender === 'user' && <User className="size-6 flex-shrink-0" />}
               </div>
             ))}
             {isLoading && (
               <div className="flex gap-3 justify-start">
-                <Bot className="h-6 w-6 flex-shrink-0" />
+                <Bot className="size-6 flex-shrink-0" />
                 <div className="bg-gray-900 text-white px-4 py-2 rounded-lg flex items-center">
-                  <Loader2 className="h-5 w-5 animate-spin mr-2" />
+                  <Loader2 className="size-5 animate-spin mr-2" />
                   <span className="text-sm">Chef is thinking...</span>
                 </div>
               </div>
@@ -213,16 +213,16 @@ function ChatPage() {
           <div ref={messagesEndRef} />
         </div>
       </div>
-      <div className="fixed bottom-0 left-0 right-0 w-full px-4 pb-4 bg-black">
+      <div className="fixed bottom-0 inset-x-0 w-full px-4 pb-4 bg-black">
         <div className="max-w-4xl mx-auto">
           {pastedImage && (
-            <div className="relative w-24 h-24 p-2 border border-gray-700 bg-gray-900 rounded-lg mb-2">
-              <img src={pastedImage} alt="Pasted preview" className="w-full h-full object-cover rounded" />
+            <div className="relative size-24 p-2 border border-gray-700 bg-gray-900 rounded-lg mb-2">
+              <img src={pastedImage} alt="Pasted preview" className="size-full object-cover rounded" />
               <button
                 onClick={() => { setPastedImage(null); }}
                 className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full p-1 shadow-md hover:bg-red-600"
               >
-                <X className="h-4 w-4" />
+                <X className="size-4" />
               </button>
             </div>
           )}

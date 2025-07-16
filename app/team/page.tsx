@@ -26,9 +26,9 @@ export default function Team() {
 
       {/* Hero Section */}
       <div className="relative min-h-screen sm:min-h-[50vh] w-full bg-[url('/image/teams.jpg')] bg-cover bg-no-repeat">
-        <div className="absolute inset-0 h-full w-full bg-gray-900/20" />
+        <div className="absolute inset-0 size-full bg-gray-900/20" />
         <div className="grid min-h-screen sm:min-h-[50vh] px-8">
-          <div className="container relative z-10 my-auto mx-auto grid place-items-center text-center">
+          <div className="container relative z-10 m-auto grid place-items-center text-center">
             <Typography variant="h1" color="white" className="md:max-w-full lg:max-w-3xl">
               Meet Our Team
             </Typography>
@@ -59,7 +59,7 @@ export default function Team() {
             {TEAM_MEMBERS.map((member, index) => (
               <Card key={index} className="text-center">
                 <CardBody>
-                  <div className="mx-auto mb-6 h-32 w-32 rounded-full bg-gray-200 flex items-center justify-center">
+                  <div className="mx-auto mb-6 size-32 rounded-full bg-gray-200 flex items-center justify-center">
                     <Typography variant="small" color="blue-gray">
                       [Photo]
                     </Typography>

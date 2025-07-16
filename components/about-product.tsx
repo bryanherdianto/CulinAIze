@@ -14,20 +14,20 @@ import FeatureCard from "@/components/feature-card";
 const FEATURES = [
   {
     icon: InboxIcon,
-    title: "Hands-On Projects",
+    title: "Recipe Generation",
     description:
-      "Apply your knowledge to real-world projects, building a robust portfolio.",
+      "Generate personalized recipes based on your ingredients and preferences.",
   },
   {
     icon: AcademicCapIcon,
-    title: "Career Opportunities",
+    title: "Smart Cooking Tips",
     description:
-      "React developers are in high demand and this course is designed for you!",
+      "Get intelligent cooking suggestions and techniques to improve your culinary skills.",
   },
   {
     icon: CheckBadgeIcon,
-    title: "Flexible Learning",
-    description: "Access course materials whenever it suits your schedule.",
+    title: "24/7 AI Assistant",
+    description: "Access your personal cooking assistant anytime, anywhere.",
   },
 ];
 
@@ -40,21 +40,22 @@ export function AboutProduct() {
             width={768}
             height={500}
             src="/image/online-course.png"
-            className="h-full max-h-[500px] w-full object-cover scale-110"
-            alt="online course"
+            className="max-h-[500px] size-full object-cover scale-110"
+            alt="CulinAIze AI cooking assistant"
           />
         </div>
         <div className="col-span-2 lg:pl-24">
           <Typography variant="h2" color="blue-gray" className="mb-4">
-            Online Course
+            AI Cooking Assistant
           </Typography>
           <Typography
             variant="lead"
             className="mb-5 max-w-lg px-4 text-left text-lg !text-gray-500 lg:px-0  "
           >
-            In this comprehensive React Course, you&apos;ll delve into the world
-            of React, from its fundamentals to advanced techniques. Our expert
-            instructors will guide you through every step.
+            Transform your cooking experience with CulinAIze, the intelligent AI tool 
+            that helps you create delicious meals from any ingredients. Whether you&apos;re 
+            a beginner or a seasoned chef, our AI assistant will guide you through 
+            every step of your culinary journey.
           </Typography>
 
           <div className="col-span-2 grid grid-cols-1 gap-10 sm:grid-cols-3 ">
