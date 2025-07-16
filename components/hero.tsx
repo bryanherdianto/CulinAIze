@@ -21,7 +21,7 @@ function Hero() {
             className="mt-6 mb-10 w-full md:max-w-full lg:max-w-3xl"
           >
             Our chatbot is designed to help you learn and master the
-            arts of cooking. Whether you're a beginner or an experienced chef, it can provide
+            arts of cooking. Whether you&apos;re a beginner or an experienced chef, it can provide
             personalized guidance to elevate your culinary skills.
           </Typography>
           <div>

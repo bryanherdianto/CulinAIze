@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useState, useRef, useEffect } from 'react'
-import { Greeting } from '@/components/greeting'
 import { PaperclipIcon, ArrowUpIcon } from '@/components/icons'
 import { Bot, User, X, Loader2 } from 'lucide-react'
 import { createClient, Session } from '@supabase/supabase-js'
