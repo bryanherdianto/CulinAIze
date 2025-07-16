@@ -249,7 +249,7 @@ function ChatPage() {
                   autoResize()
                 }}
                 onKeyDown={handleKeyPress}
-                placeholder="Send a message or paste an image..."
+                placeholder="Send a message..."
                 className="flex-1 bg-transparent text-white placeholder-gray-500 resize-none outline-none min-h-[24px] max-h-64 overflow-y-auto"
                 rows={1}
                 disabled={isLoading}
