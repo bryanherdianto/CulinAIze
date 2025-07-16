@@ -1,4 +1,6 @@
 <a id="readme-top"></a>
+<img width="1500" height="700" alt="CulinAIze-1" src="https://github.com/user-attachments/assets/c31d0ba7-c5a2-4a43-9b39-98cb18f67e4f" />
+
 <div align="center">
 
   <h1 align="center">🍳  CulinAIze  🧠</h1>
